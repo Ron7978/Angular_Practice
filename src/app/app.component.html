@@ -1,0 +1,14 @@
+<h1>Welcome to Sports Items</h1>
+<counter
+  [val]="cricket"
+  [name]="'Cricket'"
+  (change)="cricketchanged($event)"
+></counter>
+<br />
+<counter
+  [val]="football"
+  [name]="'Football'"
+  (change)="footballchanged($event)"
+></counter>
+<br />
+<b> Total-Items : {{ totalItems }} </b>
